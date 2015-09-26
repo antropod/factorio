@@ -18,7 +18,6 @@ end
 
 function traverse_table(node)
   write("{")
-  level = level + 1
   local i = 1
   local count = item_count(node)
   for k, v in pairs(node) do
