@@ -80,4 +80,4 @@ end
 
 inspect_all(game.player.force.recipes)
 
-game.makefile("recipes", out)
+game.write_file("recipes.json", out)
